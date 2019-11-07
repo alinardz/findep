@@ -1,0 +1,21 @@
+# Rules https://github.com/sasstools/sass-lint/tree/master/docs/rules
+rules:
+  nesting-depth:
+    - 1
+    - max-depth: 4
+  no-misspelled-properties: 
+    - 1
+    -
+      'extra-properties':
+        - 'lost-column'
+        - 'lost-align'
+        - 'lost-utility'
+        - 'lost-flex-container'
+files:
+  include:
+    - 'src/**/*.scss'
+  ignore:
+    - 'src/styles/base/_reset.scss'
+options:
+  max-warnings: 0
+

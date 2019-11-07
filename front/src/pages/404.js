@@ -1,7 +1,8 @@
-import React from "react"
+/* eslint-disable react/jsx-pascal-case */
+import React from 'react'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 const NotFoundPage = () => (
   <Layout>
